@@ -14,16 +14,16 @@
     <parent>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>hapi-fhir</artifactId>
-		  <version>5.5.1</version>
+		  <version>5.7.0-PRE7-SNAPSHOT</version>
     </parent>
 
     <artifactId>hapi-fhir-jpaserver-starter</artifactId>
     <groupId>org.smartregister</groupId>
-    <version>5.5.2-SNAPSHOT</version>
+    <version>5.5.3-SNAPSHOT</version>
 
     <properties>
         <java.version>8</java.version>
-        <hapi.fhir.version>5.5.1</hapi.fhir.version>
+        <hapi.fhir.version>5.7.0-PRE7-SNAPSHOT</hapi.fhir.version>
     </properties>
 
     <prerequisites>
@@ -140,7 +140,7 @@
         <dependency>
             <groupId>org.smartregister.hapi-fhir-opensrp-extensions</groupId>
             <artifactId>location</artifactId>
-            <version>0.0.3-SNAPSHOT</version>
+            <version>0.0.4-SNAPSHOT</version>
         </dependency>
 
 
