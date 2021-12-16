@@ -39,13 +39,13 @@ Feature: Care Plan
     When I Set request HEADER
     And Send a GET HTTP request
     Then I receive valid Response for GET Care Plan service for specific Condition
-  @GET
-  Scenario: Read Care Plan for specific Encounter
-    Given I am Testing Case : "514"
-    And I Set GET Care Plan api endpoint for specific encounter
-    When I Set request HEADER
-    And Send a GET HTTP request
-    Then I receive valid Response for GET Care Plan service for specific Encounter
+#  @GET
+#  Scenario: Read Care Plan for specific Encounter
+#    Given I am Testing Case : "514"
+#    And I Set GET Care Plan api endpoint for specific encounter
+#    When I Set request HEADER
+#    And Send a GET HTTP request
+#    Then I receive valid Response for GET Care Plan service for specific Encounter
   @PUT
   Scenario: Update Care Plan
     Given I am Testing Case : "510"
