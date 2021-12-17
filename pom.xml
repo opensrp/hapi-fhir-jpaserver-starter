@@ -23,7 +23,7 @@
 
     <properties>
         <java.version>8</java.version>
-        <hapi.fhir.version>5.7.0-PRE7-SNAPSHOT</hapi.fhir.version>
+        <hapi.fhir.version>5.7.0-PRE8-SNAPSHOT</hapi.fhir.version>
     </properties>
 
     <prerequisites>
