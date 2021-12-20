@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - master
-      - add-fhir-cucumber-integration-test
+
 jobs:
   integration-test:
     runs-on: ubuntu-latest
@@ -57,7 +57,7 @@ jobs:
         run: |
           sed -i 's/keycloak:/keycloak:\n\ \ \enabled:\ false/g' src/main/resources/application.yaml
 
-      - name: Run fhir server
+      - name: Run hapi fhir server
         run: mvn clean spring-boot:run -Pboot > /dev/null 2>&1 &
 
       - name: Wait for hapi fhir server to be reachable
