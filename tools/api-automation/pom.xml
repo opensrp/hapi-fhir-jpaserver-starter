@@ -21,7 +21,7 @@
                         <testSourceDirectory>test</testSourceDirectory>
                         <include>**/RunCukesTest*.java</include>
                     </includes>
-                    <testFailureIgnore>true</testFailureIgnore>
+<!--                    <testFailureIgnore>true</testFailureIgnore>-->
 
                 </configuration>
             </plugin>
