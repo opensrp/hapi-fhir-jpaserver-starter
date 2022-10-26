@@ -24,7 +24,7 @@
 
     <properties>
         <hapi.fhir.version>6.1.0</hapi.fhir.version>
-        <spring_boot_version>2.5.6</spring_boot_version>
+        <spring_boot_version>2.6.13</spring_boot_version>
         <java.version>11</java.version>
     </properties>
 
