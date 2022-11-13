@@ -23,7 +23,7 @@
     <version>6.0.1-SNAPSHOT</version>
 
     <properties>
-        <hapi.fhir.version>6.1.0</hapi.fhir.version>
+        <hapi.fhir.version>6.2.0</hapi.fhir.version>
         <spring_boot_version>2.5.6</spring_boot_version>
         <java.version>11</java.version>
     </properties>
