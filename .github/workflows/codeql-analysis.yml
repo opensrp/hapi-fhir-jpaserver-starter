@@ -9,7 +9,7 @@ on:
   #   # Publish `v1.2.3` tags as releases.
   #   tags:
   #     - v*
-  # pull_request:
+  pull_request:
   # schedule:
   #   - cron: '0 3 * * 1,3'     # CodeQL Scan every Monday and Wednesday at 3 AM UTC
   # wokflow_dispatch option enables for manual scanning
@@ -80,4 +80,4 @@ jobs:
       uses: github/codeql-action/analyze@v2
       with:
         category: "/language:${{matrix.language}}"
-        config-file: ../codeql-config.yml
+        config-file: ./.github/codeql-config.yml
