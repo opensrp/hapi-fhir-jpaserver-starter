@@ -1,0 +1,12 @@
+name: My CodeQL Analysis
+description: A sample CodeQL analysis
+
+# Ignore the following directories
+paths-ignore:
+  - "charts/**"
+  - "tools/**" 
+  - "src/test/**" 
+
+# # Specify the CodeQL queries to run
+# queries:
+#   - my-query.ql
