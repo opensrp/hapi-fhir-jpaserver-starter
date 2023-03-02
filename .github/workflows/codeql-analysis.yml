@@ -52,7 +52,7 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-        queries: security-and-quality
+        queries: security-and-quality, security-extended
         config-file: ./.github/codeql-config.yml
 
         # If you wish to specify custom queries, you can do so here or in a config file.
